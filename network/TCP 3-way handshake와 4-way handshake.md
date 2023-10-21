@@ -48,7 +48,8 @@
 
 ## 4-way handshake
  > 세션을 종료하기 위한 과정
- 
+
+  ![Alt text](image-1.png)
  
  ### 과정
  - Step 1.
