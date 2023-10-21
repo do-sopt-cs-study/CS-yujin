@@ -18,10 +18,10 @@
 ***
 # TCP 3-way handshake와 4-way handshake
 
-> TCP는 `정확성/신뢰성` 있는 전송을 보장해줘야함
-	>  -> 그를 위한 과정: handshaking
-		> 1. Establishing Connection (접속 성립) : 3-way
-		> 2. Closing Connection (접속 종료) : 4-way
+> TCP는 `정확성/신뢰성` 있는 전송을 보장해줘야함<br/>
+>	>-> 그를 위한 과정: handshaking<br/>
+>	>	> 1. Establishing Connection (접속 성립) : 3-way <br/>
+>	> 	> 2. Closing Connection (접속 종료) : 4-way
 
 ## 3-way handshake
 > 접속 성립을 위한 과정
@@ -43,9 +43,8 @@
 	이러한 과정이 3-way handshake
 
 >용어 참고)
->- ACK:
->- SYN:
->- flag
+>- ACK: Acknowledgement. 내가 보낸 패킷을 상대방이 잘 받았는지 확인하는 용도. 헤더의 ACK Number 필드로 ACK 파악.
+>- SYN: Synchronize sequence numbers. 연결을 요청하겠다!의 의미로, 헤더의 SYN 필드 값을 1로 해서 보냄
 
 ## 4-way handshake
  > 세션을 종료하기 위한 과정
