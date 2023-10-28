@@ -26,7 +26,7 @@
 ## 3-way handshake
 > 접속 성립을 위한 과정
 
-![Alt text](image.png)
+![Alt text](img/image.png)
 
 #### 과정
 - Step 1.
@@ -49,7 +49,7 @@
 ## 4-way handshake
  > 세션을 종료하기 위한 과정
 
-  ![Alt text](image-1.png)
+  ![Alt text](img/image-1.png)
  
  ### 과정
  - Step 1.

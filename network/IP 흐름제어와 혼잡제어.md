@@ -59,7 +59,7 @@
 - 손실 발생전까지 transmission rate를 지수함수꼴로 증가시키며 패킷 송신
 - 손실이 발생한다면, 그 때의 window size의 절반값으로 설정.
 - 그 이후부터는 1씩 증가
-![Alt text](image-3.png)
+![Alt text](img/image-3.png)
 
 ### Fast Retransmit
 - sender가 3개의 중복된 ACK를 받는다면, 손실된 패킷 재전송
@@ -71,4 +71,4 @@
 - 그 후 선형 증가시킴 
 - TCP Reno 
 
-![Alt text](image-2.png)
+![Alt text](img/image-2.png)
