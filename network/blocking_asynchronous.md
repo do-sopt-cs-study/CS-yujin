@@ -42,3 +42,5 @@
 # 정리하며
 즉, blocking 과 non-blocking은 `제어권`이 누구에게 있는지에 대한 차이가 있으며,
 synchronous와 asynchronous는 일을 수행하는 `동시성`에 차이가 있는 것이다.
+
+##### [참고 아티클](https://inpa.tistory.com/entry/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-%EB%8F%99%EA%B8%B0%EB%B9%84%EB%8F%99%EA%B8%B0-%EB%B8%94%EB%A1%9C%ED%82%B9%EB%85%BC%EB%B8%94%EB%A1%9C%ED%82%B9-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC )
