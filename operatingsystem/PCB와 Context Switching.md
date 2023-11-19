@@ -34,9 +34,9 @@
   - 즉, 프로세스가 생성되면 해당 PCB가 List Head에 삽입 되고, 프로세스 완료시 제거됨
 - 이렇게 수행중인 프로세스를 변경할때, CPU의 레지스터 정보가 변경되는 것을 `Context Switching`이라고 함.
 
-> 교체작업이란:
-> Interrupt 발생 ->
-> 할당받은 프로세스는 Waiting 상태로 변경 ->
+> 교체작업이란: <br/>
+> Interrupt 발생 -> <br/>
+> 할당받은 프로세스는 Waiting 상태로 변경 -> <br/>
 > 다른 프로세스를 Running 상태로 변경
 
 ### Context Switching
